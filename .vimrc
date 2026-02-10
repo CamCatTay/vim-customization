@@ -8,7 +8,6 @@ set softtabstop=4
 set mouse=a
 set laststatus=2
 set encoding=utf-8
-colorscheme retrobox
 
 " install vim-plug
 " if error ensure curl is installed
@@ -22,5 +21,11 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
 Plug 'majutsushi/tagbar'
+Plug 'morhetz/gruvbox'
+Plug 'scrooloose/syntastic'
+Plug 'valloric/youcompleteme'
+Plug 'vim-airline/vim-airline'
 
 call plug#end()
+
+colorscheme retrobox
