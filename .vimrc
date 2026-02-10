@@ -23,7 +23,6 @@ Plug 'scrooloose/nerdtree'
 Plug 'majutsushi/tagbar'
 Plug 'morhetz/gruvbox'
 Plug 'scrooloose/syntastic'
-Plug 'valloric/youcompleteme'
 Plug 'vim-airline/vim-airline'
 
 call plug#end()
