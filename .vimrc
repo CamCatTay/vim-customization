@@ -1,3 +1,4 @@
+syntax on
 set number
 set relativenumber
 set tabstop=4
@@ -8,6 +9,15 @@ set softtabstop=4
 set mouse=a
 set laststatus=2
 set encoding=utf-8
+set complete+=kspell
+set completeopt=menuone,longest
+set shortmess+=c
+set smartindent
+set expandtab
+
+" show/hide 80 character limit for readability
+nnoremap <Leader>cc :set colorcolumn=80<cr>
+nnoremap <Leader>ncc :set colorcolumn-=80<cr>
 
 " install vim-plug
 " if error ensure curl is installed
@@ -24,6 +34,9 @@ Plug 'majutsushi/tagbar'
 Plug 'morhetz/gruvbox'
 Plug 'scrooloose/syntastic'
 Plug 'vim-airline/vim-airline'
+
+" automatically show vim's complete menu
+Plug 'vim-scripts/AutoComplPop'
 
 call plug#end()
 
