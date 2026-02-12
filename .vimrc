@@ -19,6 +19,9 @@ set expandtab
 nnoremap <Leader>cc :set colorcolumn=80<cr>
 nnoremap <Leader>ncc :set colorcolumn-=80<cr>
 
+" open current file in browser (for html)
+nnoremap <Leader>p :!sensible-browser %<cr>
+
 " install vim-plug
 " if error ensure curl is installed
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
