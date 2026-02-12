@@ -34,6 +34,10 @@ Plug 'majutsushi/tagbar'
 Plug 'morhetz/gruvbox'
 Plug 'scrooloose/syntastic'
 Plug 'vim-airline/vim-airline'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
 
 " automatically show vim's complete menu
 Plug 'vim-scripts/AutoComplPop'
