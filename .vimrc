@@ -38,6 +38,7 @@ Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
+Plug 'shime/vim-livedown'
 
 " automatically show vim's complete menu
 Plug 'vim-scripts/AutoComplPop'
