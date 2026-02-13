@@ -1,6 +1,7 @@
 syntax on
 set number
-set relativenumber
+"see how far next line is
+"set relativenumber
 set tabstop=4
 set shiftwidth=4
 set autoindent
